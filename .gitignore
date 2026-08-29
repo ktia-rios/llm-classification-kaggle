@@ -1,4 +1,24 @@
+# Arquivos de dados e submissões
 *.csv
+*.tsv
+*.zip
+data/
+
+# Ambientes virtuais e cache Python
+.venv/
+env/
 __pycache__/
 .ipynb_checkpoints/
-.venv/
+
+# Checkpoints de treino e logs do Trainer
+results_deberta/
+checkpoint-*/
+runs/
+wandb/
+
+# Pesos e arquivos binários de Deep Learning
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
